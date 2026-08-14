@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+
   images: {
-    unoptimized: process.env.NODE_ENV === 'development',
+    unoptimized: true,
   },
+
+  basePath: '/my-portfolio',
+  assetPrefix: '/my-portfolio/',
 };
 
 module.exports = nextConfig;
