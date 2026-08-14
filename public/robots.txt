@@ -1,0 +1,9 @@
+# Robots file for SEO
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.next/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://hemrajlama.com/sitemap.xml
